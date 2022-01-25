@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ConfigServer
+
+server:
+  port: 8600
+
+#spring.cloud.config.server.git.uri: file:/${user.home}/Yandex.Disk.localized/PTC Java/Spring Cloud/Spring Cloud/Solutions2/Lab 4/git
+spring.cloud.config.server.git.uri: file:/home/dex/MyIdeaProjects/commonConfig/configs
+spring.cloud.config.server.bootstrap: true
+#spring.cloud.config.server.bootstrap: true

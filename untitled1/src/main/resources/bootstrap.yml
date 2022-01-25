@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Untitled1
+
+spring.cloud.config.uri: http://localhost:8600
