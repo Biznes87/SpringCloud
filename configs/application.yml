@@ -1,0 +1,10 @@
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8701/eureka
+
+
+untitled.property: 12345678
+untitled1.property: 12345678
